@@ -10,7 +10,6 @@
     // Configuration for TypeScript files
     {
       "files": ["**/*.ts", "**/*.tsx"],
-      "excludedFiles": ["**/*.config.ts", "**/*.test.tsx"],
       "plugins": [
         "react",
         "react-hooks",
@@ -153,9 +152,16 @@
         "import/extensions": [
           "warn",
           "never",
-          { "svg": "always", "scss": "always" }
+          {
+            "svg": "always",
+            "scss": "always",
+            "jpg": "always",
+            "jpeg": "always",
+            "png": "always"
+          }
         ],
         "sonarjs/prefer-single-boolean-return": "warn",
+        "@typescript-eslint/no-explicit-any": "warn",
         // Imports rules
         // TODO setup this rule
         "simple-import-sort/imports": "warn",

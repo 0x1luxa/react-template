@@ -1,16 +1,12 @@
-import Logo from '@assets/images/logo.svg'
+import Logo from '@assets/icons/vite.svg'
+import Image from '@assets/images/what.jpg'
 
 function App() {
   return (
-    <>
+    <div className="flex h-screen w-screen flex-col items-center justify-center gap-2">
       <Logo />
-      <div className="flex size-2 justify-normal">App</div>
-      <div className="flex size-2 justify-normal">App</div>
-      <div className="flex size-2 justify-normal">App</div>
-      <div className="flex size-2 justify-normal">App</div>
-      <div className="flex size-2 justify-normal">App</div>
-      <div className="flex size-2 justify-normal">App</div>
-    </>
+      <img src={Image} alt="" />
+    </div>
   )
 }
 

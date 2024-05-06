@@ -12,7 +12,6 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      "@": root,
       "@api": `${root}/api`,
       "@assets": `${root}/assets`,
       "@components": `${root}/components`,
