@@ -43,5 +43,7 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["Timeframe"]
+  "cSpell.words": ["Timeframe"],
+  "i18n-ally.localesPaths": ["public/locales"],
+  "i18n-ally.keystyle": "nested"
 }

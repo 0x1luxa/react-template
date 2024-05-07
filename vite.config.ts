@@ -14,8 +14,8 @@ export default defineConfig({
     alias: {
       "@api": `${root}/api`,
       "@assets": `${root}/assets`,
+      "@elements": `${root}/modules`,
       "@components": `${root}/components`,
-      "@elements": `${root}/elements`,
       "@layouts": `${root}/layouts`,
       "@pages": `${root}/pages`,
       "@routes": `${root}/routes`,
